@@ -1,4 +1,4 @@
-public class Bien extends ImmoEsi {
+public class Bien {
     private String adresse;
     private float surface;
     private float prix;
