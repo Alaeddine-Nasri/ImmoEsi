@@ -15,20 +15,20 @@ public class Maison extends Habitable{
     }
 
     public void affich(){
-        affi_biens();
+        afficher();
         System.out.println("La maison est de "+getNb_pieces());
         System.out.println("Surface habitable est : "+ surface_habitable);
         System.out.println("Avec "+nb_etage+" etages");
-        if garage {
+        if (garage) {
             System.out.println("avec un Garage");
         }
-        if jardin {
+        if (jardin) {
             System.out.println("Avec Jardin");
         }
-        if piscine{
+        if (piscine){
             System.out.println("Avec Piscine");
         }
-        if getMeublee(){
+        if (getMeublee()){
             System.out.println("Et Meublée!");
         }
 
