@@ -1,7 +1,8 @@
 public class ImmoEsi {
     public static int nb_bien; // nombre de bien proposé
-    Bien tab_bien[] = new Bien[nb_bien];
-    Bien tableau_arichive[] ;
+    private Bien tab_bien[] = new Bien[nb_bien];
+    private Bien tableau_arichive[] ;
+    private Proprietaire proprietaire[];
     private int i;
 
     public ImmoEsi() {

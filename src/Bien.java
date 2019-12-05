@@ -1,4 +1,4 @@
-public class Bien {
+public abstract class Bien implements Comparable {
     private String adresse;
     private float surface;
     private float prix;
@@ -15,6 +15,8 @@ public class Bien {
         this.date = date;
         this.photos = photos;
     }
+
+    public float calcule_prix;
 
     public void afficher(){
         System.out.println("affiche les details d'un bien");

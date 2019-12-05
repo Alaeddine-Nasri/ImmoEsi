@@ -12,7 +12,7 @@ public class Transactoin {
         if (transac.transaction == Transaction_Type.Echange ) {
 
         }
-        
+
         return prix;
     }
 
