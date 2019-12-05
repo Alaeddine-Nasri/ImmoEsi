@@ -8,4 +8,12 @@ public abstract class NonHabitable extends Bien {
         this.etat_juidique = etat_juidique;
     }
     public abstract void affich();
+
+    public int getNb_facades() {
+        return nb_facades;
+    }
+
+    public String getEtat_juidique() {
+        return etat_juidique;
+    }
 }
