@@ -1,4 +1,4 @@
-public enum Transaction {
+public enum Transaction_Type {
     Vente, Location, Echange;
 
 
