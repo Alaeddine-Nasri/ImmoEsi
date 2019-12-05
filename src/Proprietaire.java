@@ -14,9 +14,9 @@ public class Proprietaire {
 
 
     public void afficher_prop(){
-        System.out.println("Mr" +nom + prenom "a ces bien :");
+        System.out.println("Mr" +nom + prenom+ "a ces bien :");
         for(int i = 0; i < bien.length; i ++){
-            System.out.println(+i "/  " +bien[i]);
+            System.out.println(+i+ "/  " +bien[i]);
         }
     }
 }
