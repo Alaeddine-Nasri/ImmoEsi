@@ -10,8 +10,8 @@ public class Appart extends Habitable {
 
     public void affich(){
         afficher();
-        System.out.println("La maison est de "+getNb_pieces());
-        System.out.println("nombre d'etage est :"+ etage);
+        System.out.println("Nombre de pièces : "+getNb_pieces());
+        System.out.println("nombre d'etage  :"+ etage);
         if (duplexe){
             System.out.println("duplexé");
         }

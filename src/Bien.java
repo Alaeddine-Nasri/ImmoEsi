@@ -18,11 +18,12 @@ public abstract class Bien implements Comparable {
 
     public float calcule_prix;
 
-    @Override
-    public int compareTo(Object o) {
-        if (this.date> ((Bien)o).date ) {return 1;}
-        else {return -1;}
+    public int compareTo(Bien o) {
+        if (this.date.compareTo(o.date) > 0 ) {return 1;}
+        if (this.date.compareTo(o.date) < 0 ) {return -1;}
+        else {return 0;}
     }
+
 
     public void afficher(){
         System.out.println("affiche les details d'un bien");
